@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#img p img{
+    border-radius: 3px;
+}
+body > section {
+    margin-inline: 20px;
+}
+#phai div {
+    width: 350px;
+}
+#tieude h2::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background: linear-gradient(to right, #06e5f5, #9900ff);
+    width: 12%;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+#list {
+    display: flex;
+}
+#list div {
+    width: 210px;
+}
+#list div p i {
+    color: #06e5f5;
+    margin-right: 10px;
+}

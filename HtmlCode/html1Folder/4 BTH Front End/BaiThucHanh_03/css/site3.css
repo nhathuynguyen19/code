@@ -1,0 +1,462 @@
+:root {
+    --width: 1300px;
+    --temp-height: 100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-width: var(--width);
+    height: var(--temp-height);
+    font-family: sans-serif;
+}
+
+/*i*/
+#i {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+#img1 {
+    display: block;
+    margin: auto;
+}
+
+/*i-i*/
+#i-i {
+    width: var(--width);
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: white;
+}
+
+#i-i-i {
+    width: 20%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+#i-i-ii {
+    width: 80%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+/*i-ii*/
+#i-ii {
+    width: var(--width);
+    height: 70%;
+    position: absolute;
+    display: flex;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+}
+
+#i-ii-i {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#i-ii-ii {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/*ii*/
+#ii {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: #011C38;
+}
+
+#ii-i {
+    width: var(--width);
+    height: 100%;
+    margin: auto;
+}
+
+#ii-i-i {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+#ii-i-ii {
+    width: 60%;
+    height: 100%;
+    float: left;
+    padding-left: 20px;
+}
+
+/*iii*/
+#iii {
+    width: 100%;
+    height: 400px;
+}
+
+#iii-i {
+    width: var(--width);
+    height: 100%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+/*iv*/
+#iv {
+    width: 100%;
+    height: 200px;
+}
+
+#iv-i {
+    width: var(--width);
+    height: 100%;
+    margin: auto;
+    background: #012951;
+}
+
+/*content*/
+#menu-top {
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#contact {
+    width: 100%;
+    height: auto;
+}
+
+#nav1 {
+    width: 100%;
+    height: auto;
+}
+
+.nav1 {
+    width: auto;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#KHH {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#nav2 {
+    height: 30%;
+    width: 100%;
+}
+
+.nav2 {
+    width: auto;
+    height: 100%;
+    float: right;
+    margin-left: 20px;
+    cursor: pointer
+}
+
+#imgGirl {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+#imgGirl img {
+    transform: translate(0, 5%);
+}
+
+#connect {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+#form1 {
+    width: 100%;
+    height: 80%;
+}
+
+#form1 div {
+    width: 100%;
+}
+
+#form1 p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#form1 input {
+    height: 40px;
+    width: 360px;
+    margin-block: 2px;
+    background: #1B334C;
+    border: none;
+    border-radius: 1px;
+}
+
+#form1 input::placeholder {
+    color: white;
+    transform: translate(5%)
+}
+
+#but1 {
+    height: 60%;
+}
+#but1 button {
+    cursor: pointer;
+}
+
+#but1 button {
+    float: right;
+    height: 40px;
+    width: 150px;
+    margin-top: 2px;
+    background: #011C38;
+    border: 3px solid #AB5241;
+    color: #AB5241;
+}
+
+#tintuc {
+    width: 33.333%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+}
+#tintuc div {
+    padding-block: 10px;
+}
+
+#sukien {
+    width: 33.333%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+}
+#sukien div {
+    padding-block: 10px;
+}
+
+#sumang {
+    width: 33.333%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+}
+#news-content {
+    
+}
+
+.imgevent {
+    width: 70px;
+    height: 70px;
+    background: #C5C5C5;
+}
+.imgevent p {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+}
+.imgevent strong {
+    width: 100%;
+    height: auto;
+    display: block;
+    font-size: 65px;
+    color: white;
+    transform: translate(14%, -10%);
+}
+
+.event-content {
+    width: 100%;
+    height: 70px;
+    transform: translate(0, -10%);
+}
+
+.events {
+    display: flex;
+}
+.events div {
+    margin-inline: 5px;
+}
+.events a, .event-content p {
+    margin-block: 5px;
+}
+.events a {
+    text-decoration: none;
+    color: #011C38;
+}
+
+.nes {
+    font-size: 25px;
+}
+
+.news-content {
+    border-bottom: 1px solid #000000;
+}
+.news-content p, a{
+    padding-block: 10px;
+}
+.news-content p {
+    color: #a0a0a0;
+}
+.news-content a {
+    color: #183B5E;
+    text-decoration: none;
+}
+
+#nav3 {
+    height: 100%;
+    width: 33.3%;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    background: #012951;
+}
+#nav3 li {
+    font-size: 13px;
+    margin-bottom: 5px;;
+}
+
+
+.Chu1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#v {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#v-i {
+    width: 1300px;
+    height: 100%;
+    padding-top: 20px;
+    transform: translate(0,20px);
+}
+
+#tieubieu {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+#tvanh {
+    width: 60%;
+    height: 100%;
+    float: left;
+    transform: translate(0px);
+}
+
+.tieubieu {
+    width: 100%;
+    height: 30%;
+    margin-top: 30px;
+    display: flex;
+}
+.tieubieu div {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.tieubieu strong {
+    display: block;
+    color: #012951;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.tieubieu p {
+    margin-bottom: 10px;
+}
+
+.anh1 {
+    width: 100%;
+    height: 37%;
+    margin-bottom: 7px;
+}
+
+.fanh {
+    margin-right: 7px;
+    float: left;
+}
+
+#vi {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+.foot {
+    top: 0;
+    width: 33.3%;
+    height: 100%;
+    float: left;
+}
+.foot div {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+#vi-i {
+    width: 1300px;
+    height: 100%;
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+.ttlh {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background: #012447;
+}
+
+#footer-i {
+    width: 1300px;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,43 @@
+.img {
+    margin-right: 20px;
+}
+.all {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    display: flex;
+}
+.menu > div > a {
+    text-decoration: none;
+    margin: 10px;
+}
+.button > p > a{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
+.button > p > i {
+    color: rgb(83, 83, 83);
+}
+.button > p {
+    scale: 150%;
+}
+.menu-link > a:hover {
+    color: rgb(15, 146, 146);
+}
+.menu-link > a {
+    color: black;
+}
+.button {
+    scale: 70%;
+    margin-left: 70px;
+    padding: 0px 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: white;
+    border-radius: 6px;
+    border-color: rgb(230, 230, 230);
+    border-width: 2px ;
+}

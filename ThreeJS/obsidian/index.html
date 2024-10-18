@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obsidian</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Nhúng thư viện Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script>
+        //tao scene
+        const scene = new THREE.Scene();
+        const sceneGroup = new THREE.Group();
+        scene.add(sceneGroup);
+
+        //anh sang
+        const ambientlight = new THREE.AmbientLight(0xffffff, 0.5);
+        scene.add(ambientlight);
+
+        //diem sang
+        const pointlight = new THREE.PointLight(0xffffff, 1);
+        pointlight.position.set(0, 0, 3.2);
+        scene.add(pointlight);
+
+        //camera
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        camera.position.z = 6;
+
+        //render
+        const renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setClearColor(0x3333333);
+        document.body.appendChild(renderer.domElement);
+
+        //array color
+        const colors = [
+            0x000000, 0x000000, 0x000000, 0x000000, 0x000000,
+            0x050209, 0x050209, 0x050209, 0x050209, 0x050209, 0x050209,
+            0x0D0A16, 0x0D0A16, 0x0D0A16, 0x0D0A16, 0x0D0A16,
+            0x261D3C, 0x261D3C,
+            0x3A2652
+        ];
+
+        //tao hinh hop
+        const geometry = new THREE.BoxGeometry(0.1, 0.1, 0.1);
+
+        //so luong moi hang va khoang cach
+        const numCubes = 16;
+        const distanceBetweenCubes = 0.1;
+
+        //create block
+        function createBlock() {
+            for (let i = 0; i < numCubes; i++) {
+                for (let j = 0; j < numCubes; j++) {
+                    for (let z = 0; z < numCubes; z++) {
+                        const material = new THREE.MeshLambertMaterial({ color: colors[Math.floor(Math.random() * colors.length)] });
+                        const cube = new THREE.Mesh(geometry, material);
+                        cube.position.set(
+                            (i - (numCubes - 1) / 2) * distanceBetweenCubes,
+                            (j - (numCubes - 1) / 2) * distanceBetweenCubes,
+                            (z - (numCubes - 1) / 2) * distanceBetweenCubes
+                        );
+                        sceneGroup.add(cube);
+                    }
+                }
+            }
+        }
+        createBlock();
+
+        //tạo controls mouse
+        const controls = new THREE.OrbitControls(camera, renderer.domElement);
+
+        //cap nhat
+        function animate() {
+            requestAnimationFrame(animate);
+            sceneGroup.rotation.y += 0.01;
+            sceneGroup.rotation.x += 0.01;
+            sceneGroup.rotation.z += 0.01;
+            controls.update();
+            renderer.render(scene, camera);
+        }
+
+        // Gọi hàm animate
+        animate();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+#saoMoc {
+    width: 50.22px;
+    height: 50.22px;
+    border-radius: 50%;
+    background-color: #F5DEB3;
+}
+#quyDaoSaoMoc {
+    position: absolute;
+    width: 23462px;
+    height: 21278px;
+    border-radius: 50%;
+    border: 1px solid white;
+}

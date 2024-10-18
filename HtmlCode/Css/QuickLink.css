@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#container {
+    width: 900px;
+    background-color: rgb(10, 86, 116);
+}
+#content {
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+}
+h4 {
+    font-weight: 550;
+}
+#content div {
+    margin-inline: 20px;
+}
+#link ul li a {
+    color: white;
+    text-decoration: none;
+}
+#nentang {
+    display: flex;
+}
+#nentang div{
+    text-align: center;
+    width: 20px;
+    padding: 10px;
+    margin: 1px;
+}
+#nentang div a i {
+    color: white;
+}
+#footer {
+    text-align: center;
+    border-top: 1px solid rgb(161, 161, 161);
+}

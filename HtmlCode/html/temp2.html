@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Simulation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000000;
+        }
+        canvas {
+            border: 1px solid #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="fireCanvas" width="300" height="300"></canvas>
+    <script>
+        const canvas = document.getElementById('fireCanvas');
+const ctx = canvas.getContext('2d');
+
+const width = canvas.width;
+const height = canvas.height;
+
+const firePixels = [];
+const fireWidth = width;
+const fireHeight = height;
+
+const palette = [
+  [0, 0, 0], [36, 36, 36], [73, 36, 36], [109, 36, 36], 
+  [146, 36, 36], [182, 36, 36], [219, 36, 36], [255, 36, 36], 
+  [255, 73, 36], [255, 109, 36], [255, 146, 36], [255, 182, 36], 
+  [255, 219, 36], [255, 255, 36], [255, 255, 73], [255, 255, 109], 
+  [255, 255, 146], [255, 255, 182], [255, 255, 219], [255, 255, 255]
+];
+
+function createFireData() {
+  for (let i = 0; i < fireWidth * fireHeight; i++) {
+    firePixels[i] = 0;
+  }
+  for (let i = 0; i < fireWidth; i++) {
+    firePixels[(fireHeight - 1) * fireWidth + i] = palette.length - 1;
+  }
+}
+
+function updateFire() {
+  for (let x = 0; x < fireWidth; x++) {
+    for (let y = 1; y < fireHeight; y++) {
+      const src = y * fireWidth + x;
+      const decay = Math.floor(Math.random() * 3);
+      const dest = src - decay + fireWidth;
+
+      if (dest >= 0 && dest < firePixels.length) {
+        const intensity = firePixels[src];
+        firePixels[dest] = intensity - (decay & 1);
+      }
+    }
+  }
+}
+
+function renderFire() {
+  const imageData = ctx.createImageData(fireWidth, fireHeight);
+  for (let i = 0; i < firePixels.length; i++) {
+    const value = firePixels[i];
+    const color = palette[Math.max(0, Math.min(palette.length - 1, value))];
+    const index = i * 4;
+    imageData.data[index] = color[0];
+    imageData.data[index + 1] = color[1];
+    imageData.data[index + 2] = color[2];
+    imageData.data[index + 3] = 255;
+  }
+  ctx.putImageData(imageData, 0, 0);
+}
+
+function main() {
+  createFireData();
+  setInterval(() => {
+    updateFire();
+    renderFire();
+  }, 50);
+}
+
+main();
+
+    </script>
+</body>
+</html>

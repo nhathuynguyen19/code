@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;     
+    width: 960px;
+    margin: 0px auto;
+}
+
+/*hang1*/
+.hang1 {
+    display: flex;
+    background: #003954;
+    color: white;
+    justify-content: space-between;
+}
+.hang1 ul li {
+    list-style: none;
+}
+
+.header-linksa {
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+.header-linksa li a i {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#mail {
+    display: flex;
+    margin-left: 20px;
+}
+#mail li {
+    display: block;
+    border-right: 1px solid;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#mail li i {
+    margin-right: 5px;
+}
+/*hang2*/
+
+
+.hang2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#nodung2 ul {
+    display: flex;
+    margin-right: 20px;
+}
+#nodung2 ul li {
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    height: 100px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+#nodung2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+#nodung2 ul li a:hover{
+    color: dimgrey;
+}
+
+
+.logo {
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+/*hang3*/
+.trangbia {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+.trangbia img {
+    position: absolute;
+    top: -100px;
+}
+
+.hang3 {
+    position: relative;
+}
+
+.nodung3 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.gioithieu {
+    display: flex;
+}
+.gioithieu li {
+    border: 3px solid white;
+    margin: 10px;
+}
+.gioithieu li div{
+    display: block;
+    height: 100px;
+    width: 150px;
+    overflow: hidden;
+}
+.gioithieu li img {
+    width: 100%;
+}
+.gioithieu li a {
+    display: block;
+    background: #E1B50E;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*tongp2*/
+#tongp2 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.nd2-a {
+    float: left;
+    width: 45%;
+    height: 250px;
+    margin: 10px;
+    border-top: 2px solid #E0B316;
+}
+
+.nd2-1 {
+    width: 70%;
+}
+
+.ng2-2 {
+    width: 30%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.for {
+    background: #E0B316;
+    height: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 35%;
+}
+
+.namers {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.locate {
+    width: 70%;
+    height: 30px;
+}
+
+.img1 {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+.img1 img{
+    width: 100%;
+}
+
+.txt1 {
+    color: #666666;
+}
+
+.header-links {
+    border: 2px solid #E0B316;
+    width: 100%;
+    background: #E0B316;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.header-links input {
+    width: 65%;
+    height: 25px;
+    margin-right: 2px;
+    border: 1px solid #C1C7CA;
+}
+.header-links button {
+    width: 25%;
+    background: #53A437;
+    border: 1px solid #C1C7CA;
+    color: white;
+    height: 25px;
+}
+.header-links img {
+    width: 100%;
+}
+.header-links {
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}

@@ -1,0 +1,13 @@
+#saoKim {
+    width: 4.35px;
+    height: 4.35px;
+    border-radius: 50%;
+    background-color: #F5F5DC;
+}
+#quyDaoSaoKim {
+    position: absolute;
+    width: 3132px;
+    height: 3089px;
+    border-radius: 50%;
+    border: 1px solid white;
+}

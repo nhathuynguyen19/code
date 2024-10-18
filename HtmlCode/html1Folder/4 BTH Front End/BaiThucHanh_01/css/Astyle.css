@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    min-width: 920px;
+}
+#cen-cen {
+    width: 920px;
+}
+
+.darkyellow {
+    background-color: #FFF206;
+    height: 200px;
+    width: 25%;
+    position: relative;
+}
+
+.lightyellow {
+    background-color: #FFF75E;
+    height: 200px;
+    width: 25%;
+    position: relative;
+}
+
+#housetype {
+}
+#housetype div {
+    float: left;
+}
+
+#cen {
+    display: flex;
+    justify-content: center;
+}
+
+#introduce {
+    display: flex;
+}
+
+.img1 {
+    position: relative;
+}
+.img1 img {
+    filter: brightness(0.75)
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav1 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 60px;
+    margin-right: 50px;
+}
+#nav1 a {
+    margin-inline: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#logo {
+    margin-left: 10px;
+}
+
+.txt1 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#aboutcompany {
+    display: inline-block;
+    width: 100%;
+    padding-block: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.txt2 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+#down-cen {
+    width: 920px;
+    display: flex;
+    background: #FFF206;
+}
+#down-cen div, nav {
+    padding-block: 20px;
+    width: 100%;
+}
+
+#down {
+    display: flex;
+    justify-content: center;
+    background: #FFF206;
+}
+
+#nav2 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.foot1 {
+    font-size: 14px;
+}

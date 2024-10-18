@@ -1,0 +1,64 @@
+/*frameContainer*/
+#frameContainer {
+    position: relative;
+    width: 275.095px;
+    height: 575.673px;
+    border-radius: 56.171px;
+    margin: 25px auto;
+    transform-style: preserve-3d;
+    transition: transform 0.1s;
+    background-color: #000000;
+    transform: rotateX(50deg) rotateY(-20deg);
+}
+
+#deviceScreen {
+    position: absolute;
+    width: 257.642px;
+    height: 558.224px;
+    border-radius: 47.445px;
+    top: 8.7245px;
+    left: 8.7245px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+#dynamic-island {
+    position: absolute;
+    width: 75px;
+    height: 22px;
+    top: 13.7245px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 11px;
+    background-color: black;
+    z-index: 2;
+}
+
+#front-lidar {
+    width: 42px;
+    height: 12px;
+    border-radius: 6px;
+    float: left;
+    margin: 5.5px auto 5.5px 5.5px;
+    background-color: #0A0A0A;
+}
+
+#front-cam {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    float: right;
+    margin: 5.5px 5.5px 5.5px auto;
+    background-color: #0A0A0A;
+}
+
+#front-cam-1 {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    margin: 3px;
+    background-color: #1F1E3A;
+}

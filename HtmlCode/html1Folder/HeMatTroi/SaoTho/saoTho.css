@@ -1,0 +1,22 @@
+#saoTho {
+    width: 41.83px;
+    height: 41.83px;
+    border-radius: 50%;
+    background-color: #F5DEB3;
+}
+#ring {
+    width: 46.59px;
+    height: 46.59px;
+    border-radius: 50%;
+    border: 41px solid #F5DEB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quyDaoSaoTho {
+    position: absolute;
+    width: 43390px;
+    height: 38792px;
+    border-radius: 50%;
+    border: 1px solid white;
+}

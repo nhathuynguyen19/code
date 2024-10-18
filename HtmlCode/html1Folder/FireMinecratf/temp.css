@@ -1,0 +1,189 @@
+/*00*/
+/*15-11*/
+.pixel15-11 {
+    animation: transformPixel15-11 1s steps(1, end) infinite;
+}
+@keyframes transformPixel15-11 {
+    0% {/*1*/
+        background-color: #00000000;
+    }
+    3.45% {/*2*/
+        background-color: #00000000;
+    }
+    6.9% {/*3*/
+        background-color: #00000000;
+    }
+    10.35% {/*4*/
+        background-color: #00000000;
+    }
+    13.8% {/*5*/
+        background-color: #00000000;
+    }
+    17.25% {/*6*/
+        background-color: #00000000;
+    }
+    20.7% {/*7*/
+        background-color: #00000000;
+    }
+    24.15% {/*8*/
+        background-color: #00000000;
+    }
+    27.6% {/*9*/
+        background-color: #00000000;
+    }
+    31.05% {/*10*/
+        background-color: #00000000;
+    }
+    34.5% {/*11*/
+        background-color: #00000000;
+    }
+    37.95% {/*12*/
+        background-color: #00000000;
+    }
+    41.4% {/*13*/
+        background-color: #00000000;
+    }
+    44.85% {/*14*/
+        background-color: #00000000;
+    }
+    48.3% {/*15*/
+        background-color: #00000000;
+    }
+    51.75% {/*16*/
+        background-color: #00000000;
+    }
+    55.2% {/*17*/
+        background-color: #00000000;
+    }
+    58.65% {/*18*/
+        background-color: #00000000;
+    }
+    62.1% {/*19*/
+        background-color: #00000000;
+    }
+    65.55% {/*20*/
+        background-color: #00000000;
+    }
+    69% {/*21*/
+        background-color: #00000000;
+    }
+    72.45% {/*22*/
+        background-color: #00000000;
+    }
+    75.9% {/*23*/
+        background-color: #00000000;
+    }
+    79.35% {/*24*/
+        background-color: #00000000;
+    }
+    82.8% {/*25*/
+        background-color: #00000000;
+    }
+    86.25% {/*26*/
+        background-color: #00000000;
+    }
+    89.7% {/*27*/
+        background-color: #00000000;
+    }
+    93.15% {/*28*/
+        background-color: #00000000;
+    }
+    96.6% {/*29*/
+        background-color: #00000000;
+    }
+}
+
+/*11*/
+/*8-2*/
+.pixel8-2 {
+    animation: transformPixel8-2 1s steps(1, end) infinite;
+}
+@keyframes transformPixel8-2 {
+    0% {/*1*/
+        background-color: #FDFDFD;
+    }
+    3.45% {/*2*/
+        background-color: #E7C64D;
+    }
+    6.9% {/*3*/
+        background-color: #EBD262;
+    }
+    10.35% {/*4*/
+        background-color: #E9CF5A;
+    }
+    13.8% {/*5*/
+        background-color: #DDAC26;
+    }
+    17.25% {/*6*/
+        background-color: #FEFCFD;
+    }
+    20.7% {/*7*/
+        background-color: #FEFCFD;
+    }
+    24.15% {/*8*/
+        background-color: #FEFCFD;
+    }
+    27.6% {/*9*/
+        background-color: #FEFCFD;
+    }
+    31.05% {/*10*/
+        background-color: #FEFCFD;
+    }
+    34.5% {/*11*/
+        background-color: #DDAE2C;
+    }
+    37.95% {/*12*/
+        background-color: #C98010;
+    }
+    41.4% {/*13*/
+        background-color: #C1700A;
+    }
+    44.85% {/*14*/
+        background-color: #EDD162;
+    }
+    48.3% {/*15*/
+        background-color: #FAF0CD;
+    }
+    51.75% {/*16*/
+        background-color: #E2A723;
+    }
+    55.2% {/*17*/
+        background-color: #F4DB80;
+    }
+    58.65% {/*18*/
+        background-color: #F0C750;
+    }
+    62.1% {/*19*/
+        background-color: #E5B534;
+    }
+    65.55% {/*20*/
+        background-color: #EABA36;
+    }
+    69% {/*21*/
+        background-color: #FEFCFE;
+    }
+    72.45% {/*22*/
+        background-color: #FEFCFE;
+    }
+    75.9% {/*23*/
+        background-color: #DB9716;
+    }
+    79.35% {/*24*/
+        background-color: #F2D570;
+    }
+    82.8% {/*25*/
+        background-color: #CD7406;
+    }
+    86.25% {/*26*/
+        background-color: #EFC953;
+    }
+    89.7% {/*27*/
+        background-color: #FFFCFD;
+    }
+    93.15% {/*28*/
+        background-color: #D29515;
+    }
+    96.6% {/*29*/
+        background-color: #D08E15;
+    }
+}

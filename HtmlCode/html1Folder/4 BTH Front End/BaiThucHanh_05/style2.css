@@ -1,0 +1,129 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#wrapper {
+    max-width: 960px;
+    margin: 0px auto;
+}
+#header {
+    background-color: antiquewhite;
+}
+#header-top {
+    display: flex;
+    justify-content: space-between;
+}
+#header-bottom {
+    background: linear-gradient(to bottom, #A18A0F, #F4A01A);
+}
+#wp-content {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#c1 {
+    display: flex;
+}
+#c111 {
+    display: flex;
+}
+.c-pic678 {
+    display: flex;
+}
+.c-pic12 {
+    overflow: hidden;
+    height: 315px;
+    margin-bottom: 20px;
+}
+#content {
+    width: 60%;
+}
+#side-bar {
+    width: 40%;
+}
+#c11 {
+    width: 66.666666%;
+    margin-right: 10px;
+}
+#c12 {
+    width: 33.333333%;
+    margin-left: 10px;
+}
+#i2 {
+    position: relative;
+    height: 223px;
+}
+#i2 img {
+    position: absolute;
+    right: -100px;
+}
+.t2 {
+    width: 50%;
+}
+.i3 img {
+    width: 100%;
+}
+.img678 {
+    width: 35%;
+}
+.img678 img{
+    width: 100%;
+}
+.c678 {
+    width: 65%;
+}
+#gin img{
+    width: 100%;
+}
+.c-pic11-12 {
+    display: flex;
+}
+#content {
+    margin-right: 10px;
+}
+#side-bar {
+    margin-left: 10px;
+}
+#c1 {
+    margin-bottom: 10px;
+}
+#c2 {
+    margin-top: 20px;
+}
+#cogai {
+    margin-right: 10px;
+}
+#thutrang {
+    margin-left: 10px;
+}
+.img678 {
+    margin-bottom: 20px;
+}
+.img678 {
+    margin-right: 5px;
+}
+#gin {
+    margin-bottom: 20px;
+}
+#c-pic10 {
+    margin-top: 10px;
+}
+#thammy {
+    margin-bottom: 10px;
+}
+#c10 h5, p {
+    margin-bottom: 10px;
+}
+#c10 {
+    margin-bottom: 20px;
+}
+.c-pic11-12 {
+    margin-bottom: 20px;
+}
+.haingoai {
+    margin-right: 10px;
+}

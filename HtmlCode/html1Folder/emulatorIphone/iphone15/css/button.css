@@ -1,0 +1,86 @@
+/*button*/
+#powerButtonPrimary,
+#powerButtonRight, 
+#switchButtonPrimary,
+#switchButtonLeft,
+#volumeUpButtonPrimary,
+#volumeUpButtonLeft,
+#volumeDownButtonPrimary,
+#volumeDownButtonLeft
+{
+    position: absolute;
+    top: 169px;
+    width: 9px;
+    height: 65px;
+    border-radius: 5px;
+    transform-origin: top right;
+    transform: translateZ(-10px) rotateY(-90deg);
+    border: 1px solid;
+}
+#switchButtonPrimary,
+#switchButtonLeft,
+#volumeUpButtonPrimary,
+#volumeUpButtonLeft,
+#volumeDownButtonPrimary,
+#volumeDownButtonLeft
+{
+    height: 19px;
+    transform-origin: top left;
+    transform: translateZ(-10px) rotateY(90deg);
+    top: 100px;
+    left: 0;
+}
+
+
+/*power*/
+#powerButtonPrimary {
+    background-color: #3f3f3f;
+    left: 266px;
+}
+#powerButtonRight {
+    background-color: var(--custom-color);
+    left: 270px;
+}
+
+/*switch*/
+#switchButtonPrimary {
+    background-color: #3f3f3f;
+}
+
+#switchButtonLeft {
+    background-color: var(--custom-color);
+    left: -4px;
+}
+
+/*volumeUp*/
+#volumeUpButtonPrimary,
+#volumeUpButtonLeft {
+    height: 44px;
+    top: 140px;
+}
+
+#volumeUpButtonPrimary {
+    background-color: #3f3f3f;
+}
+
+#volumeUpButtonLeft {
+    background-color: var(--custom-color);
+    left: -4px;
+}
+
+
+/*volumeDown*/
+#volumeDownButtonPrimary,
+#volumeDownButtonLeft {
+    height: 44px;
+    top: 191px;
+}
+
+#volumeDownButtonPrimary {
+    background-color: #3f3f3f;
+}
+
+#volumeDownButtonLeft {
+    background-color: var(--custom-color);
+    left: -4px;
+}

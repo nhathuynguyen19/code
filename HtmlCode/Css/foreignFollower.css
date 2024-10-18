@@ -1,0 +1,24 @@
+.all {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.img {
+    text-align: center;
+    justify-content: center;
+    width: 930px;
+}
+.content {
+    display: grid;
+    grid-template-columns: 27% 22% 26% 25%;
+    width: 930px;
+} 
+div {
+    margin-top: 120px;
+}
+.content > div > p {
+    color: rgb(0, 0, 0);
+}
+.img, .content {
+    position: absolute;
+}

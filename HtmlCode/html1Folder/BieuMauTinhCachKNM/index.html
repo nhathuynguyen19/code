@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biểu Mẫu Tính Cách</title>
+    <style>
+        body {
+            padding: 10px;
+            font-family: 'Segoe UI';
+        }
+        #all {
+            width: 750px;
+            height: 100%;
+            padding-inline: 50px;
+            padding-block: 50px;
+            border-radius: 8px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 2px 2px 8px rgb(97, 97, 97), -2px -2px 8px rgb(97, 97, 97);
+        }
+
+        h2 {
+            text-align: center;
+        }
+        input {
+            border: none;
+            border-bottom: 1px dotted;
+        }
+
+        #baseinfo p {
+            margin-left: 20px;
+        }
+        #baseinfo input {
+            width: 200px;
+        }
+        #quest div {
+            margin-left: 20px;
+        }
+        label{
+            margin-left: 20px;
+        }
+        #quest div {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="all">
+        <form action="">
+            <h2>Nhóm C</h2>
+            <div id="baseinfo">
+                <h3>Thông tin cơ bản:</h3>
+                <p><span>Tên thành viên: </span><input type="text"></p>
+                <p><span>Đảm nhiệm vai trò: </span><input type="text"></p>
+            </div>
+            <div id="quest">
+                <h3>Câu hỏi:</h3>
+                <div id="cau1">
+                    <h4>1. Thời gian rảnh rỗi bạn thường làm gì?</h4>
+                    <label for="trueOption">
+                        <input type="checkbox" id="trueOption" name="option">
+                        select
+                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox" id="trueOption" name="option">
+                        đọc sách
+                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox" id="trueOption" name="option" value="true">
+                        xem phim
+                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox" id="trueOption" name="option" value="true">
+                        nấu ăn
+                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox" id="trueOption" name="option" value="true">
+                        làm các dự án sáng tạo như vẽ tranh, viết truyện,...                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox" id="trueOption" name="option" value="true">
+                        đi dạo và khám phá                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox" id="trueOption" name="option" value="true">
+                        chơi trò chơ điện tử, tham gia các hoạt động trực tuyến                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox" id="trueOption" name="option" value="true">
+                        trồng cây hoặc làm vườn                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox" id="trueOption" name="option" value="true">
+                        phát triển kỹ năng mới                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox" id="trueOption" name="option" value="true">
+                        gặp gỡ bạn bè, người thân để trò chuyện, chia sẻ những điều thú vị                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox" id="trueOption" name="option" value="true">
+                        khác
+                    </label><br>
+                </div>
+                <div id="cau2">
+                    <h4>2. Nếu bạn phải chọn một từ để mô tả bản thân, từ đó là gì? Vì sao?</h4>
+                    <select name="mottumotabanthan" id="mottumotabanthan">
+                        <option>select</option>
+                        <option value="">nhiệt tình</option>
+                        <option value="">kiên nhẫn</option>
+                        <option value="">sáng tạo</option>
+                        <option value="">thấu hiểu</option>
+                        <option value="">quyết đoán</option>
+                        <option value="">tận tâm</option>
+                        <option value="">tự tin</option>
+                        <option value="">lạc quan</option>
+                        <option value="">trung thực</option>
+                    </select>
+                    <p><textarea name="" id="" cols="85" rows="10" placeholder="giải thích"></textarea></p>
+                </div>
+                <div id="cau3">
+                    <h4>3. Bạn có một kỷ niệm đáng nhớ nào không? Vì sao nó lại đặc biệt với bạn?</h4>
+                    <textarea name="" id="" cols="85" rows="10" placeholder="Bạn có một kỷ niệm đáng nhớ nào không? Vì sao nó lại đặc biệt với bạn?"></textarea>
+                </div>
+                <div id="cau4">
+                    <h4>4. Trong tình huống khó khăn, bạn thường xử lý như thế nào?</h4>
+                    <select name="tinhhuongkho" id="">
+                        <option value="">select</option>
+                        <option value="">giữ bình tĩnh, tập trung vào việc tìm ra giải pháp</option>
+                        <option value="">tìm sự hỗ trợ từ người thân hoặc bạn bè để cùng nhau đối mặt với vấn đề</option>
+                        <option value="">phân tích tình hình, tìm ra gốc rễ của vấn đề để tìm cách khắc phục</option>
+                        <option value="">tìm kiếm thông tin từ các nguồn đáng tin cậy để có cái nhìn tổng quan về các giải pháp</option>
+                        <option value="">sử dụng kiến thức, kinh nghiệm và trải nghiệm từ những khó khăn trước đó để áp dụng vào tình huống hiện tại</option>
+                        <option value="">tạo ra một kế hoạch hành động cụ thể và linh hoạt</option>
+                        <option value="">tìm kiếm ý nghĩa từ những thách thức và học hỏi từ trải nghiệm đó</option>
+                        <option value="">giữ tinh thần lạc quan, động viên bản thân và những người xung quanh</option>
+                        <option value="">tổ chức thời gian để nghỉ ngơi và tái tạo năng lượng để đối mặt với khó khăn 1 cách hiệu quả</option>
+                        <option value="">học hỏi từ những sai lầm và thất bại để cải thiện bản thân trở nên mạnh mẽ hơn trong tương lai</option>
+                        <option value="">khác</option>
+                    </select>
+                </div>
+                <div id="cau5">
+                    <h4>5. Bạn cảm thấy hạnh phúc nhất khi nào?</h4>
+                    <select name="hanhphucnhat" id="hanhphucnhat">
+                        <option value="">select</option>
+                        <option value="">khi có thể thời gian bên cạnh gia đình và bạn bè</option>
+                        <option value="">làm điều gì đó có ý nghĩa và đóng góp cho cộng đồng</option>
+                        <option value="">thực hiện được những mục tiêu mình đặt ra và đạt được thành công trong công việc và cuộc sống</option>
+                        <option value="">dành thời gian cho sở thích cá nhân (đọc sách, học nhạc, xem phim,...)</option>
+                        <option value="">trải nghiệm những cảm xúc mạnh mẽ và kỷ niệm đáng nhớ trong cuộc sống</option>
+                        <option value="">có thể giúp đỡ được người khác</option>
+                        <option value="">thưởng thức những trải nghiệm mới và khám phá những nơi mới</option>
+                        <option value="">khi thể hiện bản thân một cách tự nhiên và không bị ràng buộc</option>
+                        <option value="">khi những người thân yêu xung quanh tôi hạnh phúc và thành công trong cuộc sống của họ</option>
+                    </select>
+                </div>
+                <div id="cau6">
+                    <h4>6. Nếu bạn có thể du lịch đến một nơi nào đó, bạn sẽ chọn đi đâu và tại sao?</h4>
+                    <textarea name="" id="" cols="85" rows="10" placeholder="Nếu bạn có thể du lịch đến một nơi nào đó, bạn sẽ chọn đi đâu và tại sao?"></textarea>
+                </div>
+                <div id="cau7">
+                    <h4>7. Bạn thường làm gì để giải tỏa căng thẳng?</h4>
+                    <label for="trueOption">
+                        <input type="checkbox"> 
+                        thiền, yoga
+                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox"> 
+                        nghe nhạc
+                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox"> 
+                        chạy bộ, đạp xe, thể hình
+                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox"> 
+                        đọc sách
+                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox"> 
+                        xem phim
+                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox"> 
+                        tìm sự hỗ trợ từ bạn bè hoặc người thân
+                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox"> 
+                        đi dạo hoặc ngồi ngoài trời
+                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox"> 
+                        tạo ra thời gian cho các hoạt động sáng tạo
+                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox"> 
+                        thưởng thức những món ăn ngon mà bản thân yêu thích
+                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox"> 
+                        nấu ăn
+                    </label><br>
+                    <label for="trueOption">
+                        <input type="checkbox"> 
+                        chơi với thú cưng
+                    </label><br>
+                </div>
+                <div id="cau8">
+                    <h4>8. Bạn có một ước mơ lớn không? Nếu có, đó là gì?</h4>
+                    <textarea name="" id="" cols="85" rows="10" placeholder="Bạn có một ước mơ lớn không? Nếu có, đó là gì?"></textarea>
+                </div>
+                <div id="cau9">
+                    <h4>9. Trong những mối quan hệ của bạn, điều gì là quan trọng nhất?</h4>
+                    <select name="mqh" id="">
+                        <option value="">select</option>
+                        <option value="">sự trung thành và tin cậy</option>
+                        <option value="">sự thấu hiểu và đồng cảm</option>
+                        <option value="">sự tôn trọng</option>
+                        <option value="">sự hỗ trợ và chia sẻ</option>
+                        <option value="">sự giao tiếp</option>
+                        <option value="">sự phát triển cá nhân</option>
+                        <option value="">sự hòa hợp và cân bằng</option>
+                        <option value="">sự đồng ý và phối hợp</option>
+                        <option value="">sự vui vẻ và hài hòa</option>
+                        <option value="">sự cam kết</option>
+                    </select>
+                </div>
+                <div id="cau10">
+                    <h4>10. Bạn có một người mà bạn ngưỡng mộ không? Vì sao?</h4>
+                    <textarea name="" id="" cols="85" rows="10" placeholder="Bạn có một người mà bạn ngưỡng mộ không? Vì sao?"></textarea>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

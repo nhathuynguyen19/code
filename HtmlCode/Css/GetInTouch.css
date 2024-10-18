@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.all {
+    max-width: 600px;
+    min-width: 500px;
+}
+.dauvao > p > input {
+    padding-block: 5px;
+}
+.dauvao > p > input::placeholder {
+    color: rgb(155, 155, 155);
+}
+.o-nhap {
+    display: flex;
+    justify-content: space-between;
+}
+.o-nhap > input {
+    flex-grow: 1;
+}
+.subject {
+    display: flex;
+    justify-content: center;
+  margin: 0px;
+}
+.subject > input {
+    flex-grow: 1;
+    padding-right:0px;
+}
+.type {
+    display: flex;
+    justify-content: center;
+}
+.type > textarea {
+    flex-grow: 1;
+}
+.type > textarea::placeholder {
+    color: rgb(156, 156, 156);
+}
+.send {
+    display: flex;
+    justify-content: space-between;
+}
+.send > button {
+    padding-block: 7px;
+    padding-inline: 10px;
+    background-color: rgb(112, 218, 245);
+    color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-color: rgb(130, 197, 209);
+}
+.send > span {
+    color: rgb(155,155,155);
+}

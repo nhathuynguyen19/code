@@ -1,0 +1,15 @@
+.all {
+    font-family: 'calibri', sans-serif;
+    display: flex;
+    min-width: 920px;
+}
+.menu-link > p > a {
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+}
+.menu-link > p > a:hover {
+    color: black;
+}
+.air {
+    margin: 20px;
+}

@@ -1,0 +1,17 @@
+body {
+    min-width: 750px;
+}
+.features {
+    display: flex;
+    justify-content: center;
+}
+.menu-features > p > a {
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+}
+.menu-features > p > i {
+    color: rgb(171, 230, 78);
+}
+.menu-features {
+    margin: 20px;
+}

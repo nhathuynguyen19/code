@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 1000px;
+    font-family: sans-serif;
+}
+
+/*all*/
+
+/*i*/
+#i {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+/*i-i*/
+#i-i {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*i-i-i*/
+#i-i-i {
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+
+/*logo*/
+#logo {
+    height: 100%;
+    width: 50%;
+    width: 50%;
+}
+
+#logo img {
+    height: 100%;
+}
+
+/*hotline*/
+#hotline {
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+}
+
+#hotline div {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #49A333;
+    text-align: center;
+    border-radius: 2px;
+    margin-left: 50%;
+    margin-top: 10%;
+    transform: translate(-50%, -20%);
+    padding: 5px;
+    width: 80%;
+
+}
+
+/*i-i-ii*/
+#i-i-ii {
+    border-top: 2px solid #CED086;
+    width: 100%;
+    height: 80%;
+}
+
+#form1 {
+    text-align: center;
+    height: 80%;
+    width: 40%;
+    padding: 5%;
+    color: white;
+    background: #678B37;
+    border: 3px solid #DCE085;
+    transform: translate(0, 13%);
+}
+#form1 button {
+    cursor: pointer;
+}
+#form1 button:hover {
+    background: #a5D301;
+}
+
+#form1 i {
+    font-size: 12px;
+}
+
+#form1 h4 {
+    font-weight: 500;
+}
+
+#form1 div,
+form {
+    height: 30%;
+}
+
+#form1 input {
+    background: none;
+    border: none;
+    width: 90%;
+    margin-bottom: 3%;
+    border-bottom: 1px solid #CED086;
+}
+
+#form1 input::placeholder {
+    color: white;
+}
+
+#form1 input:focus {
+    outline: none;
+    color: white;
+}
+
+#form1 button {
+    color: white;
+    width: 80%;
+    height: 40%;
+    background: #C5D301;
+    border: none;
+    margin-top: 2%;
+    padding: 3%;
+}
+
+/*ii*/
+#ii {
+    width: 100%;
+    height: 100%;
+}
+
+#ii-i {
+    width: 60%;
+    height: 100%;
+    transform: translate(33%, 0);
+}
+
+.img1 {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.img1 img {
+    width: 100%;
+    border-radius: 3%;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #49A333;
+}
+
+.txt1 {
+    width: 50%;
+    height: 50%;
+}
+
+.txt1 p {
+    font-size: 12px;
+}
+
+.txt1 strong {
+    color: #2A6E01;
+    font-size: 11px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+#ii-i-i {
+    display: flex;
+}
+
+#ii-i-i div {
+    margin: 10px;
+}
+
+#ii-i-ii {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#ii-i-ii div {
+    margin: 10px;
+}
+
+/*iii*/
+#iii {
+    background: #81AF53;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#iii-i {
+    height: 10%;
+    width: 60%;
+    display: flex;
+    transform: translate(33%, 0);
+}
+
+#iii-i div {}
+
+#txt2 {
+    width: 60%;
+    height: 100%;
+    margin-right: 10px;
+    color: white;
+}
+
+#txt2 strong {
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+#txt2 p {
+    text-align: justify;
+    padding-top: 10px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+#img2 {
+    width: 40%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+#img2 img {
+    width: 100%;
+    border-radius: 3%;
+}
+
+/*iv*/
+#iv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: #DCE085;
+}
+
+#iv-i strong {
+    display: inline-block;
+    color: #2A6E01;
+    text-align: center;
+    width: 100%;
+}
+
+#iv-i {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 70%;
+    height: 100%;
+}
+
+#form2 {
+    display: flex;
+    justify-content: center;
+}
+#form2 input:focus {
+    outline: none;
+}
+#form2 button {
+    cursor: pointer;
+}
+
+#form2 p {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+}
+
+#form2 form p input,
+button {
+    width: 290px;
+    height: 25px;
+    margin: 5px;
+}
+
+#form2 form p button {
+    background: #2A6E01;
+    border: none;
+    color: white;
+}

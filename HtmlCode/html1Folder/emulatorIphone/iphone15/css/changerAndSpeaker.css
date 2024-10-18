@@ -1,0 +1,73 @@
+/*changerAndSpeaker*/
+/*changer*/
+#changer {
+    border: 1px solid #999690;
+    background-color: #0A0A0A;
+    position: absolute;
+    height: 9px;
+    width: 33px;
+    border-radius: 5px;
+    top: 100%;
+    left: 50%;
+    transform-origin: top;
+    transform: translate(-50%) translateZ(-10px) rotateX(-90deg);
+    
+}
+
+
+#audioGroup {
+    position: absolute;
+    width: 158.753px;
+    height: 28px;
+    top: 100%;
+    left: 50%;
+    transform-origin: top;
+    transform: translate(-50%) translateZ(-1px) rotateX(-90deg);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#rightAudio,
+#leftAudio
+{
+    width: 37%;
+    height: 100%;
+    display: flex;
+}
+#rightAudio {
+    float: right;
+}
+#leftAudio {
+    float: left;
+}
+
+#ocVit,
+#speaker
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ocVit {
+    width: 20%;
+}
+#speaker {
+    width: 80%;
+}
+
+#circle1,
+#circle2
+{
+    background-color: #000000;
+}
+#circle1 {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+}
+#circle2 {
+    height: 4px;
+    width: 4px;
+    margin: 1px;
+    border-radius: 50%;
+}

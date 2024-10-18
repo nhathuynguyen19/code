@@ -1,0 +1,29 @@
+.content1 {
+    display: flex;
+    text-align: center;
+}
+.content2 {
+    display: flex;
+    text-align: center;
+}
+.khung {
+    height: 120px;
+    padding-top: 10px;
+    min-width: 190px;
+}
+.all > div > section {
+    background-color: rgb(233, 233, 233);
+    margin: 10px;
+    border-radius: 3px;
+}
+.icon {
+    color: rgb(61, 157, 170);
+    scale: 150%;
+    position: absolute;
+}
+.head {
+    scale: 80%;
+}
+.content-text {
+    color: rgb(63, 63, 63);
+}

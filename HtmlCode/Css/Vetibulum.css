@@ -1,0 +1,19 @@
+body {
+    min-width: 560px;
+    display: flex;
+    justify-content: center;
+}
+.vertical {
+    display: flex;
+  }
+  .vertical > div {
+      margin: 0 8px;
+  }
+  .no-underline {
+      text-decoration: none;
+  }
+  .button {
+      padding: 5px 15px;
+      border-width: 1px;
+      border-radius: 3px;
+  }

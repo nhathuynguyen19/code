@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.thelonnhat {
+    background-color: rgb(244, 244, 244);
+    padding: 10px 10px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 657px;
+    min-width: 657px;
+}
+.tieude > h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.tieude > h2 > span{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 128, 109);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+}
+.danhmuc {
+    min-width: 555px;
+    text-align: center;
+}
+.danhmuc > p > a {
+    text-decoration: none;
+    margin: 5px;
+    color: rgb(97, 97, 97);
+}
+.feature {
+    min-width: 640px;
+    text-align: center;
+    background-color: white;
+}
+.feature > img {
+    margin: 5px;
+}

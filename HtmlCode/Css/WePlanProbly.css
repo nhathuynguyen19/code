@@ -1,0 +1,27 @@
+body {
+    min-width: 820px;
+}
+.all {
+    text-align: center;
+}
+.tieude {
+    text-align: center;
+    color: rgb(182, 182, 182);
+}
+.mucluc {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.mucluc > div {
+    margin: 30px;
+}
+.mucluc > div > p > a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+.muccon {
+    padding: 0px 10px;
+}

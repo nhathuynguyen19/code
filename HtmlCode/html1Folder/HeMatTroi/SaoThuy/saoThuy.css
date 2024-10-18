@@ -1,0 +1,13 @@
+#saoThuy {
+    width: 1.75px;
+    height: 1.75px;
+    border-radius: 50%;
+    background-color: #DCDCDC;
+}
+#quyDaoSaoThuy {
+    position: absolute;
+    width: 2011px;
+    height: 1321px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
