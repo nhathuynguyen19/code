@@ -19,3 +19,6 @@
 [submodule "python-code"]
 	path = python-code
 	url = git@github.com:nhathuynguyen19/python-code.git
+[submodule "swift-code"]
+	path = swift-code
+	url = git@github.com:nhathuynguyen19/swift-code.git
