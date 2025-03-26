@@ -16,3 +16,6 @@
 [submodule "coder"]
 	path = coder
 	url = git@github.com:nhathuynguyen19/coder.git
+[submodule "python-code"]
+	path = python-code
+	url = git@github.com:nhathuynguyen19/python-code.git
