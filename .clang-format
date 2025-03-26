@@ -1,0 +1,18 @@
+# Tạo cấu hình chuẩn cho clang-format
+BasedOnStyle: Google       # Dựa trên phong cách Google
+IndentWidth: 4             # Độ thụt lề là 4 dấu cách
+UseTab: Never              # Không dùng tab, sử dụng dấu cách
+ColumnLimit: 0             # Không giới hạn độ dài dòng
+AccessModifierOffset: -4   # Thụt lề các từ khóa public, private
+AlignAfterOpenBracket: Align  # Căn chỉnh sau dấu mở ngoặc
+
+BraceWrapping:
+  AfterClass: true         # Thêm dấu ngoặc sau class trên cùng một dòng
+  AfterControlStatement: true  # Thêm dấu ngoặc sau các câu lệnh điều khiển (if, for, etc.)
+  AfterFunction: true      # Thêm dấu ngoặc sau hàm trên cùng một dòng
+  AfterStruct: true        # Thêm dấu ngoặc sau struct trên cùng một dòng
+  AfterUnion: true         # Thêm dấu ngoặc sau union trên cùng một dòng
+  BeforeElse: true         # Thêm dấu ngoặc trước else
+
+PointerAlignment: Left     # Đặt dấu * cho con trỏ ở phía bên trái tên biến (int* ptr)
+ReferenceAlignment: Left   # Đặt dấu & cho tham chiếu ở phía bên trái tên biến (int& ref)
