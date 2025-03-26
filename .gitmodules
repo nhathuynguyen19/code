@@ -10,3 +10,6 @@
 [submodule "java-code"]
 	path = java-code
 	url = git@github.com:nhathuynguyen19/java-code.git
+[submodule "sketch-code"]
+	path = sketch-code
+	url = git@github.com:nhathuynguyen19/sketch-code.git
