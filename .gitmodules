@@ -7,3 +7,6 @@
 [submodule "cpp-code"]
 	path = cpp-code
 	url = git@github.com:nhathuynguyen19/cpp-code.git
+[submodule "java-code"]
+	path = java-code
+	url = git@github.com:nhathuynguyen19/java-code.git
