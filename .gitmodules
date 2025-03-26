@@ -4,3 +4,6 @@
 [submodule "c-code"]
 	path = c-code
 	url = git@github.com:nhathuynguyen19/c-code.git
+[submodule "cpp-code"]
+	path = cpp-code
+	url = git@github.com:nhathuynguyen19/cpp-code.git
