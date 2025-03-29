@@ -1,24 +1,36 @@
 [submodule "leet-code"]
 	path = leet-code
 	url = git@github.com:nhathuynguyen19/leet-code.git
+	branch = master
 [submodule "c-code"]
 	path = c-code
 	url = git@github.com:nhathuynguyen19/c-code.git
+	branch = master
 [submodule "cpp-code"]
 	path = cpp-code
 	url = git@github.com:nhathuynguyen19/cpp-code.git
+	branch = master
 [submodule "java-code"]
 	path = java-code
 	url = git@github.com:nhathuynguyen19/java-code.git
+	branch = master
 [submodule "sketch-code"]
 	path = sketch-code
 	url = git@github.com:nhathuynguyen19/sketch-code.git
+	branch = master
 [submodule "coder"]
 	path = coder
 	url = git@github.com:nhathuynguyen19/coder.git
+	branch = master
 [submodule "python-code"]
 	path = python-code
 	url = git@github.com:nhathuynguyen19/python-code.git
+	branch = master
 [submodule "swift-code"]
 	path = swift-code
 	url = git@github.com:nhathuynguyen19/swift-code.git
+	branch = master
+[submodule "javascript-code"]
+	path = javascript-code
+	url = git@github.com:nhathuynguyen19/javascript-code.git
+	branch = master
